@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Сброс пароля</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Balsamiq+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+<script type="module" src="scripts/appConfig.js"></script>
+<script type="module" src="scripts/resetPassword.js"></script>
+<header>
+    <a class="logo" href="index.html">Yokomi</a>
+</header>
+<div class="reset">
+    <h1>Восстановление</h1>
+    <input id="inp-login" type="text" placeholder="Логин">
+    <p>Дайте ответ на секретный вопрос:</p>
+    <p id="question" hidden="true"></p>
+    <input id="inp-answer" type="password" placeholder="Ответ">
+    <hr>
+    <input id="inp-password1" type="password" placeholder="Новый пароль">
+    <input id="inp-password2" type="password" placeholder="Повторите пароль">
+    <button id="change">Сменить пароль</button>
+</div>
+
+</body>
+</html>

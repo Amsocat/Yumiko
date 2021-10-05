@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Balsamiq+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<script type="module" src="scripts/appConfig.js"></script>
+<script type="module" src="scripts/registerUser.js"></script>
+<header>
+    <a class="logo" href="index.html">Yokomi</a>
+</header>
+<div class="sign_up">
+    <h1>Регистрация</h1>
+    <input id="inp-login" type="text" placeholder="Логин" required>
+    <input id="inp-password1" type="password" placeholder="Пароль" required>
+    <input id="inp-password2" type="password" placeholder="Повторите пароль" required>
+    <p>Выберите секретный вопрос</p>
+    <select id="question">
+        <option value="" selected> Кто Ваш любимый преподаватель? </option>
+        <option value=""> Какой предмет Вам не нравится? </option>
+        <option value=""> Кем Вы мечтали стать в детстве? </option>
+        <option value=""> Как звали Вашего первого питомца? </option>
+        <option value=""> Какое у Вас любимое блюдо? </option>
+    </select>
+    <input id="inp-answer" type="password" placeholder="Ответ" required>
+    <button id="create-account">Создать аккаунт</button>
+    <p>Уже есть аккаунт? <a href="authorization.html">Войти</a></p>
+</div>
+</body>
+</html>
